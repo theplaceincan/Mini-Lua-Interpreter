@@ -1,0 +1,5 @@
+-- This is an epic comment
+-- For now, this language has only one function: print()
+print("hello world")
+print(1234)
+print(3+2)
