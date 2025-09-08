@@ -48,7 +48,7 @@ expression := <br>
 
 ### 5. Semantics
 1. Expressions are evaluated left->right
-2. print("e") evaluates e, converts to text, writes it, then sends new line. Anything not an integer requires `"..."` to be a string.
+2. print(e) evaluates e, converts to text, writes the text to the console, then sends a new line. Anything not an integer requires `"..."` to be a string inside print().
 3. Airhtmetic operators apply to integers only in v0 (`+` is not string concatenation)
 4. Integer division is truncated toward 0. x/0 is a runtime error.
 4. Unary `-` negates an integer
