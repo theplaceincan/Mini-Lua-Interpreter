@@ -7,7 +7,7 @@ This language will, for now, only perform print() and arithmetic Here's informti
 * **White Space**: spaces, tabs, newlines, - <ins>ignored except inside strings.
 * **Comments**: `--` to end of line - <ins>ignored
 * **Tokens**:
-  * **INTEGER**: `0 | [1-9][0-9]*` (no sign) 
+  * **INTEGER**: `0 | [1-9][0-9]` (no sign) 
   * **STRING**: `"..."` or `'...'` with escapes `\"` `\'` `\\` and optionally `\n`
   * **IDENTIFIER**: `[A-Za-z_][A-Za-z0-9_]*`
   * **KEYWORDS**: `print` (CASE SENSITIVE)
